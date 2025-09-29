@@ -9,7 +9,10 @@ app.use(bodyParser.json());
 
 // Kết nối tới MongoDB
 const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/voucherDB';
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(mongoURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
 // Định nghĩa schema và model cho voucher
 const voucherSchema = new mongoose.Schema({
