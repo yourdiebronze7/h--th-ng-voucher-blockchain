@@ -1,6 +1,6 @@
 {
   "name": "hệ-thống-voucher-blockchain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hệ thống quản lý voucher dựa trên blockchain",
   "main": "index.js",
   "scripts": {
